@@ -11,6 +11,8 @@
 
 .icon {
     display: flex;
+    height: 80px;
+    width: 80px;
 }
 
 .iconColumn {
@@ -23,11 +25,6 @@
 
     .container {
         flex-direction: row;
-    }
-
-    .icon {
-        height: 80px;
-        width: 80px;
     }
 
     .title {
