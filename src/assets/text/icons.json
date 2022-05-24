@@ -1,0 +1,42 @@
+[
+    {
+        "iconTitle": "Angular",
+        "iconName": "logos:angular-icon"
+    },
+    {
+        "iconTitle": "Spring boot",
+        "iconName": "logos:spring-icon"
+    },
+    {
+        "iconTitle": "React",
+        "iconName": "logos:react"
+    },
+    {
+        "iconTitle": "Typescript",
+        "iconName": "vscode-icons:file-type-typescript"
+    },
+    {
+        "iconTitle": "Javascript",
+        "iconName": "file-type-light-js"
+    },
+    {
+        "iconTitle": "Python",
+        "iconName": "vscode-icons:file-type-python"
+    },
+    {
+        "iconTitle": "Github",
+        "iconName": "akar-icons:github-fill"
+    },
+    {
+        "iconTitle": "Java",
+        "iconName": "logos:java"
+    },
+    {
+        "iconTitle": "Stencil",
+        "iconName": "logo-stencil"
+    },
+    {
+        "iconTitle": "Terraform",
+        "iconName": "logos:terraform-icon"
+    }
+]

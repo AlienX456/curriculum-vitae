@@ -9,7 +9,11 @@
     justify-content: space-between;
 }
 
-.textContainer {
+.icon {
+    display: flex;
+}
+
+.iconColumn {
     display: flex;
     flex-direction: column;
 }
@@ -20,21 +24,13 @@
         flex-direction: row;
     }
 
-    .textContainer {
-        max-width: 70%;
-    }
-
-    .image {
-        height: 240px;
-        width: 240px;
+    .icon {
+        height: 80px;
+        width: 80px;
     }
 
     .title {
-        font-size: 30pt;
-    }
-
-    .description {
-        font-size: 14pt;
+        font-size: 16px;
     }
 
 }
@@ -45,21 +41,14 @@
         flex-direction: column;
     }
 
-    .textContainer {
-        max-width: 60%;
-    }
-
     .image {
         height: 140px;
         width: 140px;
     }
 
     .title {
-        font-size: 22pt;
+        font-size: 12px;
     }
 
-    .description {
-        font-size: 10pt;
-    }
 
 }
