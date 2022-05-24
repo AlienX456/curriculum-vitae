@@ -17,7 +17,7 @@
     },
     {
         "iconTitle": "Javascript",
-        "iconName": "file-type-light-js"
+        "iconName": "uil:java-script"
     },
     {
         "iconTitle": "Python",
@@ -29,11 +29,11 @@
     },
     {
         "iconTitle": "Java",
-        "iconName": "logos:java"
+        "iconName": "cib:java"
     },
     {
         "iconTitle": "Stencil",
-        "iconName": "logo-stencil"
+        "iconName": "logos:stenciljs-icon"
     },
     {
         "iconTitle": "Terraform",
