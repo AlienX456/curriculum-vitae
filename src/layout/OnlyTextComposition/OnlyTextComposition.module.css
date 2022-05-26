@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 22pt;
+}
+
+.text {
+    font-size: 12pt;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .title {
+        font-size: 14pt;
+    }
+
+    .text {
+        font-size: 10pt;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+
+    .title {
+        font-size: 14pt;
+    }
+
+    .text {
+        font-size: 10pt;
+    }
+
+}
