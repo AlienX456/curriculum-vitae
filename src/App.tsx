@@ -16,8 +16,7 @@ function App() {
     <div>
       <ImageTextComposition imageSRC={profilePhoto} title={text.profileTitle} text={text.profileText}/>
       <ImageTextComposition imageSRC={catComputer} title={text.workTitle} text={text.workText}/>
-      <IconsRow iconsArray={icons.slice(0,4)}/>
-      <IconsRow iconsArray={icons.slice(4,8)}/>
+      <IconsRow iconsArray={icons}/>
       <ImageTextComposition imageSRC={dogComputer} title={text.otherSkillsTitle} text={text.otherSkillsText}/>
     </div>
   );

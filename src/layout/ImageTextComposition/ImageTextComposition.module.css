@@ -7,47 +7,30 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .textContainer {
     display: flex;
     flex-direction: column;
+    max-width: 50%;
 }
 
-@media (min-width: 765px) {
-
-    .container {
-        flex-direction: row;
-    }
-
-    .textContainer {
-        max-width: 70%;
-    }
-
-    .image {
-        height: 240px;
-        width: 240px;
-    }
-
-    .title {
-        font-size: 30pt;
-    }
-
-    .description {
-        font-size: 14pt;
-    }
-
+.title {
+    font-size: 22pt;
 }
 
-@media (max-width: 764px) {
+.description {
+    font-size: 12pt;
+}
 
-    .container {
-        flex-direction: column;
-    }
+.image {
+    height: 200px;
+    width: 200px;
+}
 
-    .textContainer {
-        max-width: 60%;
-    }
+@media (min-width: 481px) and (max-width: 768px) {
 
     .image {
         height: 140px;
@@ -55,7 +38,30 @@
     }
 
     .title {
-        font-size: 22pt;
+        font-size: 14pt;
+    }
+
+    .description {
+        font-size: 10pt;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .image {
+        height: 140px;
+        width: 140px;
+    }
+
+    .textContainer {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .title {
+        font-size: 14pt;
     }
 
     .description {
