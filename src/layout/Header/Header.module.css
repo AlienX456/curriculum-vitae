@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sectionOne {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    width: 50%;
+}
+
+.sectionTwo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-end;
+    width: 50%;
+}
+
+.hamburger {
+    margin-right: 12%;
+}
+
+.sectionTwoIcon {
+    margin-left: 5%;
+}
+
+@media (max-width: 479px) {
+
+    .sectionOne {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .sectionTwo {
+        width: 100%;
+        justify-content: center;
+    }
+
+}
