@@ -1,4 +1,4 @@
-import classes from './OnlyTextComposition.module.css'
+import classes from './OnlyTextComposition.module.scss'
 import { Icon } from '@iconify/react';
 
 export default function OnlyTextComposition(props: any) {

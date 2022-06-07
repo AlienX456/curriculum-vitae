@@ -1,4 +1,4 @@
-import style from './ImageTextComposition.module.css'
+import style from './ImageTextComposition.module.scss'
 
 export default function ImageTextComposition(props: any) {
     return(

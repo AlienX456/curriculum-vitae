@@ -1,4 +1,4 @@
-import classes from './IconsRow.module.css'
+import classes from './IconsRow.module.scss'
 import { Icon } from '@iconify/react';
 
 export function IconsRow(props:any) {
